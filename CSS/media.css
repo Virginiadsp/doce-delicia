@@ -1,0 +1,78 @@
+@media (min-width: 320px) and (max-width: 820px) {
+header {
+    background-color: var(--rosc);
+    color: var(--branc);
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#img-topo {
+    width: 93%;
+    display: block;
+    margin: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+}
+
+label {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.ajuste-h3-p {
+    position: relative;
+    top: 30px;
+}
+
+.texto-sobre{
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.sobre-nos img {
+    display: none;
+}
+
+.sobre-nos h2 {
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.contato {
+    display: flex;
+    justify-content: center;
+}
+
+#whats {
+    width: 130px;
+    height: 40px;
+    right: -20px;
+    bottom: -30px;
+    position: fixed;
+    text-align: center;
+    margin: 6em;
+    margin-right: 9px;
+    color: var(--indig);
+    text-shadow: 1px 1px 1px var(--branc);
+    z-index: 1;
+}
+
+#whats img {
+    width: 50px;
+}
+
+#whats p{
+    font-size: 14px;
+}
+
+}
+
